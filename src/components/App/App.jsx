@@ -26,6 +26,7 @@ export const App = () => {
       alert(`${data.name} is already in contacts.`);
       return;
     }
+    
 
     setContacts(prevState => [
       ...prevState,
